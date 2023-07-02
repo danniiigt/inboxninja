@@ -23,10 +23,10 @@ const Page = async () => {
           className="h-[150px] w-[150px] lg:h-[150px] lg:w-[150px] xl:w-[200px] xl:h-[200px]"
         />
         <div className="space-y-2">
-          <h1 className="md:text-8xl xl:text-9xl text-6xl text-center md:text-left underline decoration-primary text-neutral-300">
+          <h1 className="md:text-8xl xl:text-9xl text-6xl text-center md:text-left underline decoration-primary">
             InboxNinja
           </h1>
-          <p className="text-center md:text-left text-neutral-400 text-md md:text-2xl">
+          <p className="text-center md:text-left text-muted-foreground text-md md:text-2xl">
             Tu gestor de email marketing
           </p>
         </div>

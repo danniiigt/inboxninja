@@ -42,10 +42,10 @@ export const LoginForm = () => {
   };
 
   return (
-    <Card className="w-full max-w-[575px] border-none">
+    <Card className="w-full max-w-[575px] border-none shadow-none">
       <CardHeader>
         <CardTitle>Iniciar Sesión</CardTitle>
-        <CardDescription className="text-neutral-500">
+        <CardDescription className="text-muted-foreground">
           Accede a tu cuenta de Ninjabox
         </CardDescription>
       </CardHeader>
